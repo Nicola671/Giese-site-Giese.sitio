@@ -1,0 +1,18 @@
+# Core
+Django>=4.2
+gunicorn
+
+# Database
+dj-database-url
+psycopg[binary]
+
+# Static Files
+whitenoise
+
+# Media / Uploads
+Pillow
+cloudinary>=1.41
+django-cloudinary-storage>=0.3.0
+
+# Config
+python-dotenv
